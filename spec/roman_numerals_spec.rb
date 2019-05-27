@@ -32,4 +32,8 @@ describe RomanNumerals do
   it 'converts 1999 to MCMXCIX' do
     expect(RomanNumerals.convert(1999)).to eq ("MCMXCIX")
   end
+
+  it 'converts 3036 to MMMXXXV' do
+    expect(RomanNumerals.convert(3036)).to eq ("MMMXXXV")
+  end
 end
